@@ -19,5 +19,5 @@
   <value name="created_date">30-06-2026 16:17:46 EDT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
-  <value name="isProjectPackage">false</value>
+  <value name="isProjectPackage">true</value>
 </Values>
