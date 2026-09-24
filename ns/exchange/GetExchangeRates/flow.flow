@@ -18,8 +18,8 @@ properties {
     comment: "This service retrieves a list of current foreign exchange rates relative to a specified anchor currency, defaulting to USD if no base currency is provided. It allows users to optionally filter the results down to a single destination currency or return the entire collection of available currency pairs. The resulting data set is returned as a structured document list designed for seamless downstream mapping and conversions.";
     favorite: false;
     deprecated: false;
-    visible: private;
-    reuse: private;
+    visible: public;
+    reuse: public;
     stateless: true;
     cacheResults: false;
     cacheExpire: 15;
