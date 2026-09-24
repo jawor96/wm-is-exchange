@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="GetExchangeRates TestSuite" name="GetExchangeRatesTestSuite">
+    <webMethodsTestCase description="Success Test: Default base currency (USD)" name="success_default_base">
+        <service folder="exchange" name="GetExchangeRates">
+            <input>
+                <file filename="resources/tests/setup/success_default_base-input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/setup/success_default_base-result.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Success Test: Specific base and target currency (EUR to USD)" name="success_base_and_target">
+        <service folder="exchange" name="GetExchangeRates">
+            <input>
+                <file filename="resources/tests/setup/success_base_and_target-input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/setup/success_base_and_target-result.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
